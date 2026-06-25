@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link B7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Inter:wght@600&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="landing">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero__image" src="assets/hero-bike.png" alt="Bicicleta plegable Link B7 blanca" />
+        <div class="hero__content">
+          <p class="eyebrow">LINK B7</p>
+          <span class="short-line" aria-hidden="true"></span>
+          <h1 id="hero-title">UNA BICICLETA QUE CABE EN TU VIDA</h1>
+          <p class="hero__copy">Diseñada para adaptarse a tu rutina, no al revés.</p>
+          <span class="hero__rule" aria-hidden="true"></span>
+          <a class="button" href="#movement">
+            <span>DESCUBRÍ LA LINK B7</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="feature feature--split" aria-labelledby="daily-title">
+        <img class="feature__image feature__image--detail" src="assets/detail-bike.png" alt="Detalle de bicicleta Link B7 junto a una rueda" />
+        <div class="feature__panel">
+          <p>LA BICICLETA</p>
+          <h2 id="daily-title">QUE CABE EN TU VIDA</h2>
+          <p>
+            Compacta, inteligente y diseñada para el mundo real. La Tern LINK B7
+            transforma tu forma de moverte.
+          </p>
+          <a href="#technology">Conocé más <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="feature__index">
+          <span>01</span>
+          <small>/04</small>
+        </div>
+      </section>
+
+      <section class="fold" aria-labelledby="fold-title">
+        <div class="fold__copy">
+          <h2 id="fold-title">Se pliega en segundos. <span>Lista para tu día.</span></h2>
+          <p>Diseñada para que plegar tu bici sea rápido, fácil y seguro. Llevála donde quieras, sin complicaciones.</p>
+        </div>
+        <img class="fold__image" src="assets/folded-bike.png" alt="Bicicleta Link B7 plegada con aro azul luminoso" />
+      </section>
+
+      <section class="technology" id="technology" aria-labelledby="technology-title">
+        <h2 id="technology-title">CON TECNOLOGÍAS ÚNICAS</h2>
+        <div class="tech-grid">
+          <article class="glass-card">
+            <p>FBL 2 FRAME POINT</p>
+            <h3>Plegado seguro y robusto</h3>
+            <a href="#movement">Conocé más <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="glass-card">
+            <p>Q-LOCK</p>
+            <h3>Bloqueo del manubrio</h3>
+            <a href="#movement">Conocé más <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="glass-card">
+            <p>MAGNETIX 2.0</p>
+            <h3>Bicicleta siempre compacta</h3>
+            <a href="#movement">Conocé más <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="movement" id="movement" aria-labelledby="movement-title">
+        <img class="movement__background" src="assets/city-bike.png" alt="Persona moviendo una bicicleta Link B7 en la ciudad" />
+        <div class="movement__overlay" aria-hidden="true"></div>
+        <div class="movement__inner">
+          <h2 id="movement-title">HECHA PARA MOVERSE CON VOS</h2>
+          <div class="movement__content">
+            <img src="assets/city-bike.png" alt="Bicicleta Link B7 lista para moverse" />
+            <div class="stats">
+              <article class="stat-card">
+                <strong>8 s</strong>
+                <p>Tiempo aproximado de plegado</p>
+              </article>
+              <article class="stat-card">
+                <strong>11,8 kg</strong>
+                <p>Peso ligero para transportar</p>
+              </article>
+              <article class="stat-card">
+                <strong>20”</strong>
+                <p>Ruedas compactas para la ciudad</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
