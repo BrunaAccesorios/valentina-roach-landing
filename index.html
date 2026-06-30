@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link B7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Inter:wght@600&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-site-header>
+      <a class="site-brand" href="#inicio" aria-label="Link B7, volver al inicio">
+        <strong>TERN</strong>
+        <span>LINK B7</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        title="Menú"
+        data-nav-toggle
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-site-nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#rutina">Rutina</a>
+        <a href="#plegado">Plegado</a>
+        <a href="#technology">Tecnologías</a>
+        <a href="#movement">Link B7</a>
+      </nav>
+
+      <a class="site-header__cta" href="#movement">Descubrila <span aria-hidden="true">→</span></a>
+    </header>
+
+    <main class="landing">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <img class="hero__image" src="assets/hero-bike.png" alt="Bicicleta plegable Link B7 blanca" />
+        <div class="hero__content">
+          <p class="eyebrow">LINK B7</p>
+          <span class="short-line" aria-hidden="true"></span>
+          <h1 id="hero-title">Una bicicleta<br />que cabe en tu vida</h1>
+          <p class="hero__copy">Diseñada para adaptarse a tu rutina,<br /><span>no al revés.</span></p>
+          <span class="hero__rule" aria-hidden="true"></span>
+          <a class="button" href="#movement">
+            <span>DESCUBRÍ LA LINK B7</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="routine" id="rutina" aria-labelledby="daily-title">
+        <div class="routine__stage">
+          <div class="routine__media" aria-hidden="true">
+            <video class="routine__video is-active" data-routine-video muted loop playsinline preload="metadata">
+              <source src="assets/routine-01.mp4" type="video/mp4" />
+            </video>
+            <video class="routine__video" data-routine-video muted loop playsinline preload="metadata">
+              <source src="assets/routine-02.mp4" type="video/mp4" />
+            </video>
+            <video class="routine__video" data-routine-video muted loop playsinline preload="metadata">
+              <source src="assets/routine-03.mp4" type="video/mp4" />
+            </video>
+            <video class="routine__video" data-routine-video muted loop playsinline preload="metadata">
+              <source src="assets/routine-04.mp4" type="video/mp4" />
+            </video>
+            <div class="routine__shade"></div>
+          </div>
+
+          <header class="routine__header">
+            <p>LA BICICLETA</p>
+            <h2 id="daily-title">Que cabe en tu rutina</h2>
+          </header>
+
+          <div class="routine__copy">
+            <article class="routine-step is-active" data-routine-step>
+              <p>EMPEZÁ TU DÍA</p>
+              <h3>Desplegá y salí</h3>
+              <p>Afuera de casa, la Link B7 pasa de compacta a lista para rodar.</p>
+            </article>
+            <article class="routine-step" data-routine-step>
+              <p>MOVETE LIVIANO</p>
+              <h3>Conectá cada tramo</h3>
+              <p>Pedaleá por la ciudad y llegá al tren sin cortar tu recorrido.</p>
+            </article>
+            <article class="routine-step" data-routine-step>
+              <p>LLEGÁ SIN VUELTAS</p>
+              <h3>Plegá en segundos</h3>
+              <p>Antes de entrar al edificio, volvé a plegarla de forma rápida y simple.</p>
+            </article>
+            <article class="routine-step" data-routine-step>
+              <p>HACELA PARTE</p>
+              <h3>Guardala con vos</h3>
+              <p>Entrá a la oficina, dejala en un rincón y empezá tu jornada.</p>
+            </article>
+          </div>
+
+          <div class="routine__counter" aria-live="polite">
+            <span data-routine-current>01</span><small>/04</small>
+          </div>
+          <div class="routine__progress" aria-hidden="true">
+            <span data-routine-progress></span>
+          </div>
+        </div>
+        <div class="routine__track" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </div>
+      </section>
+
+      <section class="fold" id="plegado" aria-labelledby="fold-title">
+        <div class="fold__stage">
+          <div class="fold__copy">
+            <h2 id="fold-title">Se pliega en segundos. <span>Lista para tu día.</span></h2>
+            <p>Diseñada para que plegar tu bici sea rápido, fácil y seguro. Llevála donde quieras, sin complicaciones.</p>
+          </div>
+          <div class="fold-animation">
+            <iframe
+              class="fold-video"
+              src="https://assets.pinterest.com/ext/embed.html?id=863494928591375160"
+              title="Animación de bicicleta plegable"
+              loading="lazy"
+              allow="autoplay; fullscreen"
+            ></iframe>
+            <div class="fold-video__frame" aria-hidden="true"></div>
+            <p class="fold-video__caption">Plegado inteligente · cinco movimientos</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="technology" id="technology" aria-labelledby="technology-title">
+        <h2 id="technology-title">Con tecnologías únicas</h2>
+        <div class="tech-grid">
+          <article class="glass-card" data-tech-card>
+            <div class="glass-card__face glass-card__front" aria-hidden="false">
+              <p>FBL 2 FRAME POINT</p>
+              <h3>Plegado seguro y robusto</h3>
+              <button class="glass-card__action" type="button" data-card-toggle aria-expanded="false">
+                Conocé más <span aria-hidden="true">→</span>
+              </button>
+            </div>
+            <div class="glass-card__face glass-card__back" aria-hidden="true" inert>
+              <p>FBL 2 FRAME POINT</p>
+              <h3>Unión firme en cada viaje</h3>
+              <p class="glass-card__detail">Su bisagra reforzada distribuye mejor las cargas y mantiene el cuadro alineado para un plegado sólido y seguro.</p>
+              <button class="glass-card__action" type="button" data-card-toggle aria-expanded="false">
+                Volver <span aria-hidden="true">←</span>
+              </button>
+            </div>
+          </article>
+          <article class="glass-card" data-tech-card>
+            <div class="glass-card__face glass-card__front" aria-hidden="false">
+              <p>Q-LOCK</p>
+              <h3>Bloqueo del manubrio</h3>
+              <button class="glass-card__action" type="button" data-card-toggle aria-expanded="false">
+                Conocé más <span aria-hidden="true">→</span>
+              </button>
+            </div>
+            <div class="glass-card__face glass-card__back" aria-hidden="true" inert>
+              <p>Q-LOCK</p>
+              <h3>Ajuste rápido y preciso</h3>
+              <p class="glass-card__detail">El cierre permite fijar la columna del manubrio con un movimiento simple, sin herramientas y con una sujeción confiable.</p>
+              <button class="glass-card__action" type="button" data-card-toggle aria-expanded="false">
+                Volver <span aria-hidden="true">←</span>
+              </button>
+            </div>
+          </article>
+          <article class="glass-card" data-tech-card>
+            <div class="glass-card__face glass-card__front" aria-hidden="false">
+              <p>MAGNETIX 2.0</p>
+              <h3>Bicicleta siempre compacta</h3>
+              <button class="glass-card__action" type="button" data-card-toggle aria-expanded="false">
+                Conocé más <span aria-hidden="true">→</span>
+              </button>
+            </div>
+            <div class="glass-card__face glass-card__back" aria-hidden="true" inert>
+              <p>MAGNETIX 2.0</p>
+              <h3>Todo permanece en su lugar</h3>
+              <p class="glass-card__detail">Un sistema magnético mantiene ambas partes unidas cuando la bici está plegada para transportarla y guardarla con facilidad.</p>
+              <button class="glass-card__action" type="button" data-card-toggle aria-expanded="false">
+                Volver <span aria-hidden="true">←</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="movement" id="movement" aria-labelledby="movement-title">
+        <div class="movement__inner">
+          <p class="movement__eyebrow">LINK B7 · MOVILIDAD URBANA</p>
+          <h2 id="movement-title">Hecha para moverse con vos</h2>
+          <div class="movement__content">
+            <div class="movement__product">
+              <img src="assets/hero-bike.png" alt="Bicicleta Link B7 desplegada y lista para moverse" />
+              <span aria-hidden="true">B7</span>
+            </div>
+            <div class="stats">
+              <article class="stat-card">
+                <strong>8 s</strong>
+                <p>Tiempo aproximado de plegado</p>
+              </article>
+              <article class="stat-card">
+                <strong>11,8 kg</strong>
+                <p>Peso ligero para transportar</p>
+              </article>
+              <article class="stat-card">
+                <strong>20”</strong>
+                <p>Ruedas compactas para la ciudad</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__main">
+        <div class="site-footer__brand">
+          <a class="site-brand site-brand--footer" href="#inicio">
+            <strong>TERN</strong>
+            <span>LINK B7</span>
+          </a>
+          <p>Una bicicleta compacta, inteligente y diseñada para acompañar tu rutina.</p>
+        </div>
+
+        <nav class="site-footer__nav" aria-label="Navegación del pie de página">
+          <p>Explorar</p>
+          <a href="#rutina">Tu rutina</a>
+          <a href="#plegado">Plegado</a>
+          <a href="#technology">Tecnologías</a>
+          <a href="#movement">Especificaciones</a>
+        </nav>
+
+        <div class="site-footer__closing">
+          <p>Lista para moverse con vos.</p>
+          <a class="button" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <span>LINK B7</span>
+        <span>Diseñada para la ciudad.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
